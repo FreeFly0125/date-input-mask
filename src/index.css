@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.ag-chart-wrapper {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}

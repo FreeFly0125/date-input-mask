@@ -1,6 +1,8 @@
+import { DashBoard } from "./pages";
+
 function App() {
   return (
-    <>Hello, World</>
+      <DashBoard />
   );
 }
 

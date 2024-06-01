@@ -1,9 +1,14 @@
 import React from "react";
 import { withMainlayout } from "../layout";
-import { SearchBar } from "../components";
+import { IntervalOption, SearchBar } from "../components";
 
 export const DashBoard: React.FC = withMainlayout(() => {
   return (
-    <SearchBar />
+    <>
+      <div className="flex p-8">
+        <SearchBar />
+        <IntervalOption />
+      </div>
+    </>
   );
 });
